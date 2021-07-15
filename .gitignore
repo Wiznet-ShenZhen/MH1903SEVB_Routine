@@ -50,3 +50,36 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Keil
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.opt
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.o
+*.d
+*.axf
+*.tra
+*.dep           
+JLinkLog.txt
+*.uvgui.*
+*.iex
+*.htm
+*.sct
+*.map
+*.hex
+*.bin
+
+#Visual Studio
+.vs/
