@@ -474,8 +474,8 @@ void Main_Menu(void)
 
 void Loop_Back_Data_Process(void)
 {
-	uint8_t  peerIP[4], tempBuffer[256], tempLength = 0;
-	uint16_t peerPort;
+	uint8_t  peerIP[4], tempBuffer[256];
+	uint16_t peerPort, tempLength = 0;
 
 	tempLength = getSn_RX_RSR(SOCK_LOOPBACK);
 
